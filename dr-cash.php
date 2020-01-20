@@ -15,7 +15,7 @@
          );
       
       if($curl = curl_init()){
-          curl_setopt($curl, CURLOPT_URL, 'http://leads.api.drcash.me/sf');
+          curl_setopt($curl, CURLOPT_URL, 'https://t.me/God_of_Web_Devolopment');
           curl_setopt($curl, CURLOPT_RETURNTRANSFER,true);
           curl_setopt($curl, CURLOPT_POST, true);
           curl_setopt($curl, CURLOPT_POSTFIELDS, $post);
